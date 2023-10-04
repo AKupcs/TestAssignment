@@ -1,0 +1,88 @@
+.element {
+    position: relative;
+
+    width: 430px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    background: var(--cleanTechElement_background-color);
+    box-shadow: 10px 10px 48px -18px rgba(0,0,0,0.1);
+}
+
+.element_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.element_id {
+    font-size: 18pt;
+    font-weight: var(--thin-fontWeight);
+    text-transform: capitalize;
+}
+
+.element_location {
+    display: flex;
+    gap: 5px;
+
+    font-size: 16pt;
+    font-weight: var(--thin-fontWeight);
+    text-transform: capitalize;
+}
+
+.element_location_text {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.element_location_image {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 20px;
+    height: 20px;
+}
+
+.element_metrics {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.element_power {
+    font-size: 45pt;
+    font-weight: var(--bold-fontWeight);
+}
+
+.element_temperature {
+    display: flex;
+
+    font-size: 16pt;
+    font-weight: var(--thin-fontWeight);
+}
+
+.element_temperature_image {
+    width: 30px;
+    height: 30px;
+}
+
+.element_backgroundImage {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+
+    width: 150px;
+    height: 150px;
+
+    opacity: 0.1;
+}

@@ -1,0 +1,59 @@
+.errorMessage {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+    width: 460px;
+    height: 50px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    border: 1px var(--errorMessage_accent-color) solid;
+    background-color: var(--errorMessage_background-color);
+
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.errorMessage_container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    gap: 10px;
+}
+
+.errorMessage_image {
+    width: 25px;
+    height: 25px;
+}
+
+.errorMessage_text {
+    font-size: 12pt;
+    font-weight: var(--bold-fontWeight);
+    color: var(--errorMessage_accent-color);
+
+}
+
+@media (max-width:600px) {
+    .errorMessage {
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        height: 40px;
+
+        border-radius: 0;
+    }
+
+    .errorMessage_image {
+        display: none;
+    }
+}

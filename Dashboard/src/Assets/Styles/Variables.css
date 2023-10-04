@@ -1,0 +1,26 @@
+:root {
+/* -------------- Colors -------------- */
+    /* Gloabal */
+    --font-color: #06122d;
+
+    /* Dashboard */
+    --dashboard_bacground-color: #eff1f6;
+    --navigation_background-color: #ffffff;
+    --navigation_item-color: #e0e0e0;
+    --navigation_item-selected-color: #9dd1f1;
+
+    /* Header */
+    --header_background-color: #ffffff;
+    --header_border-color: #f2f2f2;
+
+    /* CleanTechElement */
+    --cleanTechElement_background-color: #ffffff;
+
+    /* ErrorMessage */
+    --errorMessage_background-color: #f4ddde;
+    --errorMessage_accent-color: #db4857;
+
+/* -------------- Font -------------- */
+    --bold-fontWeight: 500;
+    --thin-fontWeight: 300;
+}
