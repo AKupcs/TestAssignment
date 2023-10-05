@@ -14,6 +14,6 @@
 ## How to run project
 to run project enter commands in command prompt
 
-1. CleanTechSources - **dotnet run --project CleanTechSources** from project root directory
-2. CleanTechProxy - **dotnet run --project CleanTechProxy** from project root directory
-3. Dashboard - **npm start** from Dashboard directory (npm have to be installed)
+1. CleanTechSources :3000 - **dotnet run --project CleanTechSources** from project root directory
+2. CleanTechProxy :3001 - **dotnet run --project CleanTechProxy** from project root directory
+3. Dashboard :3002 - **npm start** from Dashboard directory (npm have to be installed)
